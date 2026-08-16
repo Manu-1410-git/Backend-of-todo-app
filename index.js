@@ -9,7 +9,7 @@ const mongoose = require("mongoose");
 const dns = require("dns");
 const { error } = require("console");
 dns.setServers(["1.1.1.1", "8.8.8.8"]);
-mongoose.connect("mongodb+srv://csitmanu_db_user:7kmYNG4vwSMrjw03@cluster0.76j95rd.mongodb.net/todo-app-database")
+mongoose.connect("Enter Database URL")
 
 const app = express();
 app.use(express.json());
